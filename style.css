@@ -81,11 +81,19 @@ main {
 
     .product-card__shipment {
         margin-top: 8px;
+        display: flex;
+        margin: 14px 14px;
     }
 
     .product-card__shipment-text {
         color: #787777;
         font-size: 12px;
+    }
+    .product-card__truck{
+        font-size: 500px;
+        height: 16px;
+        margin-right: 6px;
+        
     }
 
     .product-card__actions {
