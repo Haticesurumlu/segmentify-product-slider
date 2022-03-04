@@ -1,83 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="assets/css/all.css" rel="stylesheet">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Segmentify</title>
+    </head>
+    <body>
+        <main class="main">
+            <h1 class="main__title"> Sizin için Seçtiklerimiz </h1>
+            <section class="main__container">
+                <nav class="navbar" id="navbar">
+                    <ul>                     
+                        <li class="navbar__item">
+                            <a href="#" class="navbar__item-link"> Size Özel</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#" class="navbar__item-link">Tamir, Tadilat Gereçleri</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#" class="navbar__item-link">Mobilya</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#" class="navbar__item-link"> Sağlık, Medikal</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#" class="navbar__item-link">Dizüstü Bilgisayar (Laptop)</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#" class="navbar__item-link">Isıtma, Soğutma Sistemi</a>
+                        </li>
+                    </ul>
+                </nav>
 
-    <title>Segmentify</title>
-</head>
-<body>
-    <main class="main">
-        <h1 class="main__title"> Sizin için Seçtiklerimiz </h1>
-        <section class="main__container">
-            <nav class="navbar" id="navbar">
-                <ul>                     
-                    <li class="navbar__item">
-                        <a href="#" class="navbar__item-link"> Size Özel</a>
-                    </li>
-                    <li class="navbar__item">
-                       <a href="#" class="navbar__item-link">Tamir, Tadilat Gereçleri</a>
-                   </li>
-                   <li class="navbar__item">
-                       <a href="#" class="navbar__item-link">Mobilya</a>
-                   </li>
-                   <li class="navbar__item">
-                    <a href="#" class="navbar__item-link"> Sağlık, Medikal</a>
-                </li>
-        
-                <li class="navbar__item">
-                   <a href="#" class="navbar__item-link">Dizüstü Bilgisayar (Laptop) </a>
-               </li>
-               <li class="navbar__item">
-                   <a href="#" class="navbar__item-link">Isıtma, Soğutma Sistemi</a>
-               </li>
-           </ul>
-            </nav>
+                <div class="product-card">
+                    <div class="product-card__content">
+                        <div class="product-card__image">
+                            <img
+                                src="assets/img/omron-m2-hem-7121-e-ust-koldan-olcer-dijital-tansiyon-aleti-adaptor__1590974300238865.webp"
+                                alt=""
+                                loading="lazy"
+                                height="200"
+                                width="200"
+                            />
+                        </div>
 
-            <div class="products">
-            <button class="button btn-left">
-            <i class="fa-solid fa-chevron-left"></i></button>
+                        <div class="product-card__title">
+                            <h4>
+                                Techwood 32TEC600 Televizyon
+                            </h4>
+                        </div>
 
+                        <div class="product-card__price">
+                            150,00 TL
+                        </div>
 
-                <div class="products__content">
-                    <img class="" src="assets/img/omron-m2-hem-7121-e-ust-koldan-olcer-dijital-tansiyon-aleti-adaptor__1590974300238865.webp" alt="" />
-                    <h4 class="product__list-name" >Tansiyon Aleti </h4>
-                    <p class="product__list-price" >150 TL</p>
-                   <div class="product__list-cargo">  
-                    <i class="fa-solid fa-truck"></i>
-                    <h4 class="cargo-text" >Ücretsiz Kargo</h4>
+                        <div class="product-card__shipment">  
+                            <i class="fa-solid fa-truck"></i>
+                            <h4 class="product-card__shipment-text">
+                                Ücretsiz Kargo
+                            </h4>
+                        </div>
+
+                        <div class="product-card__actions">
+                            <button class="btn btn--basket">
+                                Sepete Ekle
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                    <button class="product__list-basket" >Sepete Ekle</button>
+            </section>
+
+            <div class="popup" id="popup">
+                <div class="popup__content">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <div class="popup__text">
+                        <p class="popup__message">Ürün sepete eklendi.</p>
+                        <a href="#" class="popup__link">Sepete Git</a>
+                    </div>
                 </div>
-                
-                <button class="button btn-right">
-                    <i class=" fa-solid fa-chevron-right"></i>
+                <button class="popup__btn">
+                    <i class="fa-solid fa-xmark"></i>
                 </button>
-            </div>
-        </section>
-
-
-
-         <div class="popup" id="popup">
-            <div class="popup__content">
-                <i class="fa-solid fa-circle-check"></i>
-              <div class="popup__text">
-                <p class="popup__message">Ürün sepete eklendi.</p>
-                <a href="#" class="popup__link">Sepete Git</a>
-              </div>
-            </div>
-            <button onclick=" " class="popup__btn">
-                <i class="fa-solid fa-xmark"></i>
-            </button>
-          </div> 
-
-
-      
-   
-    </main>
-    
-</body>
+            </div> 
+        </main>
+    </body>
 </html>
