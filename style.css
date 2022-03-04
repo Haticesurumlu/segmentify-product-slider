@@ -89,11 +89,7 @@ main {
         color: #787777;
         font-size: 12px;
     }
-    .product-card__truck{
-        height: 16px;
-        margin-right: 6px;
-        
-    }
+   
 
     .product-card__actions {
         margin-top: 24px;
@@ -137,4 +133,22 @@ main {
         border-radius: 5px;
         cursor: pointer;
         font-size: 16px;
+    }
+
+
+    /* icons classes */
+
+    .product-card__truck{
+        height: 16px;
+        margin-right: 6px;
+        
+    }
+
+    .popup__content-tick{
+
+    }
+
+
+    .popup__btn-exit{
+
     }
