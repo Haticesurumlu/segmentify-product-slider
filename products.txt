@@ -1,0 +1,20 @@
+[
+    {
+        "name":"Tv",
+        "img":"dsflkdsf.jpg",
+        "price":"10",
+        "oldPrice":"12"
+    },
+        {
+        "name":"radyo",
+        "img":"dsflkdsf.jpg",
+        "price":"10",
+        "oldPrice":"12"
+    },
+        {
+        "name":"phone",
+        "img":"dsflkdsf.jpg",
+        "price":"10",
+        "oldPrice":"12"
+    }
+]
