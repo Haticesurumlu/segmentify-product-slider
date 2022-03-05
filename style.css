@@ -22,25 +22,27 @@ main {
     display: flex;
 }
 
-/* NAVBAR */
-    .navbar{
-            display: flex;
-            overflow: auto;
-            position: relative;
-            margin: 30px 35px 20px;
-         } 
-    .ul{
+/* navbar classes */
+    .navbar {
+        display: flex;
+        overflow: auto;
+        position: relative;
+        margin: 30px 35px 20px;
+    }
+
+    .navbar__ul{
         list-style-type: none;
-    } 
+    }
+ 
     .navbar__item{
         padding-bottom: 30px;
     }
+
     .navbar__item-link{
         color: #787777;
         text-decoration: none;
         font-size: 17px;
     }
-
 
     /* product card classes */
 
@@ -145,10 +147,11 @@ main {
     }
 
     .popup__content-tick{
+        height: 16px;
 
     }
 
 
     .popup__btn-exit{
-
+    height: 14px;
     }
