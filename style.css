@@ -25,11 +25,10 @@ html, body {
 }
 
 
+
 /* navbar classes */
     .navbar {
         display: flex;
-        overflow: auto;
-        position: relative;
         width: 300px;
     }
 
@@ -47,10 +46,13 @@ html, body {
         font-size: 17px;
     }
 
+
+
+
     /* product card classes */
 
     .product-card{
-        display: flex;
+        display: inline-block;
         padding: 8px;
         margin: 8px;
         width: 256px;
@@ -101,11 +103,6 @@ html, body {
         margin-top: 24px;
     }
 
-    @media only screen and (max-width: 600px) {
-        body {
-          background-color: lightblue;
-        }
-    }
 
    /* btn classes */
 
@@ -162,6 +159,49 @@ html, body {
     }
 
 
-    .popup__btn-exit{
+    .popup__btn-exit {
     height: 14px;
     }
+
+
+    /* Responsive */
+    
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .card__title {
+        width: 100%;
+    }
+
+    .card__content {
+        display: block;
+    }
+ 
+    .navbar {
+        width: 100%;
+      
+    }
+
+    .navbar__ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar__item{
+        min-width: fit-content;
+        margin-right: 35px;
+    }
+
+    .navbar__item-link {
+        width: 160px;
+        display:inline-block;
+        flex-direction: row;
+    }
+
+    .card__content {
+        display: block;
+    }
+  }
