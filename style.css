@@ -93,8 +93,8 @@ li.navbar__item-active::before {
 .product-card__title {
     font-weight: 500;
     font-size: 14px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 15px 8px;
+   
 
 }
 
