@@ -124,7 +124,7 @@ html, body {
         padding-right: 7px;
     }
 
-    .btn--right {
+    .btn---right {
         right: 0;
         border-right: none;
         border-radius: 35px 0 0 35px;
@@ -152,17 +152,88 @@ html, body {
         margin-right: 6px;
         
     }
-
-    .popup__content-tick{
-        height: 16px;
-
+    .snackbar {
+        background-color: #1C232A;
+       }
+    .snackbar__icon {
+        margin: 10px;
+        height: 22px;
     }
 
+    .snackbar__text {
+        margin: 8px;
 
-    .popup__btn-exit {
+    }
+    
+    .snackbar__message {
+        font-size: 16px;
+    }
+    .snackbar__link {
+     text-decoration: none;
+     color: #75affa;
+     font-size: 12px;
+    }
+   .snackbar__btn{
+    background-color: #333;
+    border: none;
+    margin-left: 74px;
+    
+
+   
+   }
+    .snackbar__btn-exit {
     height: 14px;
+    width: 20px;
+    cursor: pointer; 
+    
+    
+
+
     }
 
+    .snackbar {
+        background-color: #333;
+        color: #fff;
+         text-align: left; 
+        border-radius: 6px;
+        display:flex;
+        padding: 6px;
+        position: fixed;
+        z-index: 1;
+        left: 50%;
+        bottom: 30px;
+        font-size: 17px;
+        bottom: 20px;
+        width: 320px;
+        height: 60px;
+       
+      }
+      
+      #snackbar.show {
+        visibility: visible;
+        -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        animation: fadein 0.5s, fadeout 0.5s 2.5s;
+      }
+      
+      @-webkit-keyframes fadein {
+        from {bottom: 0; opacity: 0;} 
+        to {bottom: 30px; opacity: 1;}
+      }
+      
+      @keyframes fadein {
+        from {bottom: 0; opacity: 0;}
+        to {bottom: 30px; opacity: 1;}
+      }
+      
+      @-webkit-keyframes fadeout {
+        from {bottom: 30px; opacity: 1;} 
+        to {bottom: 0; opacity: 0;}
+      }
+      
+      @keyframes fadeout {
+        from {bottom: 30px; opacity: 1;}
+        to {bottom: 0; opacity: 0;}
+      }
 
     /* Responsive */
     
