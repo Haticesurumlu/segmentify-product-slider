@@ -1,2 +1,4 @@
-# products-slider
-https://haticesurumlu.github.io/products-slider/
+###Segmentify Gittigidiyor.com Slider:
+
+# Demo
+https://haticesurumlu.github.io/segmentify-product-slider/
